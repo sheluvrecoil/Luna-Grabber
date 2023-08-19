@@ -17,7 +17,7 @@ from PIL import Image
 
 logging.basicConfig(
     level=logging.DEBUG,
-    filename='luna.log',
+    filename='fucked.log',
     filemode='a',
     format='[%(filename)s:%(lineno)d] - %(asctime)s - %(levelname)s - %(message)s'
 )
@@ -29,7 +29,7 @@ class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Luna Grabber Builder")
+        self.title("DNA Builder")
         self.geometry("1000x550")
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
