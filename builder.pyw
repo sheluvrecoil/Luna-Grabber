@@ -17,7 +17,7 @@ from PIL import Image
 
 logging.basicConfig(
     level=logging.DEBUG,
-    filename='fucked.log',
+    filename='luna.log',
     filemode='a',
     format='[%(filename)s:%(lineno)d] - %(asctime)s - %(levelname)s - %(message)s'
 )
